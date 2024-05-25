@@ -1,0 +1,47 @@
+TO know the version: git --version
+
+To link username and email:
+ git config --global user.name " "
+ git config --global user.email " "
+
+To see the username and email of config:
+git config --list
+
+To see when and who committed the documents:
+ git log
+
+what are the changes that are made after the commit of a file:
+ git diff
+
+*git init
+*git add <file name>
+*git commit -m ""
+*git status
+
+*** git add . = to add more commits in the current file.
+
+*git checkout <any log file info to go to history>
+
+*git checkout master: 
+
+
+******* MAKE A SEPARATE FILE IN THE FOLDER NAMED: ****
+   .gitignore (to ignore unwanted files to push)
+(Now write the files to ignore)
+
+
+***** to make a new branch *****
+git branch < branch name >
+ 
+*to enter in the new branch:
+git checkout < branch name>
+
+1. to merge branches:
+to merge a branch : git merge <branch name>
+(always merge smaller branch to bigger one)
+steps: first come to the main branch and merge the smaller branches.
+
+2. to delete the branch:
+ git branch -d <branch name>
+
+3.git checkout -b <branch name >: create and enter the branch
